@@ -3,3 +3,5 @@ class Rectangle:
         self.p = p
         self.l = l
 
+    def keliling(self):
+        return 2 * (self.p + self.l)
