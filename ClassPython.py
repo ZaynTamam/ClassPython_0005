@@ -29,4 +29,9 @@ while l <= 0:
 # Membuat object
 r = Rectangle(p, l)
 
+# Memanggil semua fungsi
+print("\nHasil:")
+print(r)
+print("Keliling:", r.keliling(), "cm")
+print("Luas:", r.luas(), "cm²")
 
